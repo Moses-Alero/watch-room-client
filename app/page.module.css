@@ -1,0 +1,7 @@
+.video_and_chat_container{
+  margin-top: 0.5rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  width: 100%;
+}
