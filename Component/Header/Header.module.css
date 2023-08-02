@@ -1,0 +1,52 @@
+
+.nav_bar{
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+}
+.user_activity{
+  display: flex;
+}
+.create_room{
+  background-color: goldenrod;
+  color: #ffffff;
+  height: 3.5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+}
+.create_room:hover{
+  background-color: rgba(218, 165, 32, 0.836);
+  transition: 0.5s ease-in-out;
+}
+
+
+.upload_movie{
+  position: relative;
+  padding: 11px;
+  margin-left: 1rem;
+  line-height: 1.5;
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: orangered;
+  border: 0;
+  overflow: hidden;
+  color: #fff;
+  height: 3.5rem;
+  cursor: pointer;
+}
+.upload_movie{
+  background-color: rgba(255, 68, 0, 0.838);
+  transition: 0.5s ease-in-out;
+}
+.upload_movie input[type = "file"]{
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transform: scale(3);
+}

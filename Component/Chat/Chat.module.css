@@ -1,0 +1,159 @@
+.chat_main_container {
+  color: #fff;
+  margin: 0rem 0.5rem;
+  background-color: rgb(52, 52, 52);
+  padding:0rem 0.5rem;
+  border-radius: 5px;
+  height: 100vh;
+  position: relative;
+}
+
+/* =========== NAME INPUT CHANGE========== */
+.search_container{
+  margin: 0.5rem 0rem;
+  display: flex;
+  color: #fff;
+}
+.input_search{
+  width: 70%;
+  position: relative;
+}
+.now_watching {
+  background-color: rgb(206, 202, 202);
+  padding-left: 0.5rem;
+  border-radius: 5px;
+  width: 30%;
+}
+.now_watching h3 {
+  margin-top: 0.6rem;
+  font-size: 13px;
+  color: rgba(131, 126, 126, 0.731);
+}
+.input_search input{
+  width: 100%;
+  outline: none;
+  position: relative;
+  height: 2.4rem;
+  border-radius: 5px;
+  padding: 1rem 1rem;
+  font-size: 16px;
+  margin-left: -0.4rem;
+  border: none;
+}
+.search_icon{
+  position: relative;
+  margin-left: -2rem;
+  font-size: x-large;
+  color: rgba(131, 126, 126, 0.731);
+  bottom: -20%;
+  cursor: pointer;
+}
+
+.add_play_list {
+  background-color: rgb(206, 202, 202);
+  border-radius: 5px;
+}
+.add_play_list h3 {
+  margin-top: 0.6rem;
+  font-size: 13px;
+  color: rgba(119, 117, 117, 0.832);
+  padding: 0rem 1rem;
+}
+
+/* ==========CHAT BOSS HEADER ============*/
+.chat_box_header {
+ display: grid;
+ grid-template-columns: 32.5% 32.5% 32.5%;
+ grid-gap: 0.5px;
+}
+.chat_box_header div{
+  background-color: black;
+  padding: 1rem 2rem;
+}
+.chat_box_header div:hover{
+  background-color: rgb(52, 52, 52);
+  padding: 1rem 2rem;
+  transition: 0.5s ease-in-out;
+}
+.chat_box_header h3{
+  font-size: 12px;
+
+}
+.chat_box_header .icon{
+  margin-bottom: -0.2rem;
+  margin-right: 0.2rem;
+}
+
+/* =======ACTIVE CLASS=========== */
+.active {
+ border-radius: 2px;
+ color: orangered;
+}
+
+
+/* ============CHAT DISPLAY========== */
+.chat_box_display {
+  overflow: auto;
+  overflow-y: scroll;
+  height: 70vh;
+}
+.chat_display{
+  display: grid;
+  grid-template-columns:10% 80%;
+  grid-gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.logo_with_name {
+text-align: center;
+}
+.logo_with_name h1{
+  font-size: 22px;
+  background-color: goldenrod;
+  border-radius: 5px;
+  padding: 0px 5px;
+}
+.name_and_time {
+  display: flex;
+  position: relative;
+  margin-top: -0.5rem;
+}
+.name_and_time h3 {
+  margin-right: 0.3rem;
+  margin-top: 1.2rem;
+  margin-bottom: 0rem;
+}
+.name_and_time p {
+  font-size: small;
+ position: relative;
+ top: 0.7rem;
+
+}
+.message{
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+.chat_input {
+  position: relative;
+}
+.chat_input input {
+  width: 80%;
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.submit{
+  background-color: transparent;
+  border: none;
+  position: relative;
+  cursor: pointer;
+}
+.submit_icon{
+  font-size: 30px;
+  position: relative;
+  top: 0.6rem;
+  left: 1;
+  color: goldenrod;
+}

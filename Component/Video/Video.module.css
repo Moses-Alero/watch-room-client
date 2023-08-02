@@ -1,0 +1,64 @@
+.video_container{
+  border-right: 0.5px solid #ffffff93;
+}
+/* =========== SEARCH CONTAINER CSS========== */
+.search_container{
+  margin: 0.5rem 1rem;
+  display: flex;
+  color: #fff;
+}
+.input_search{
+  width: 80%;
+  position: relative;
+}
+.now_watching {
+  background-color: rgb(206, 202, 202);
+  padding: 0rem 1rem;
+  width: 15%;
+  border-radius: 5px;
+}
+.now_watching h3 {
+  margin-top: 0.8rem;
+  font-size: 13px;
+  color: rgba(131, 126, 126, 0.731);
+}
+.input_search input{
+  width: 100%;
+  outline: none;
+  position: relative;
+  height: 2.6rem;
+  border-radius: 5px;
+  padding: 1rem 1rem;
+  font-size: 16px;
+  margin-left: -0.4rem;
+  border: none;
+}
+.search_icon{
+  position: relative;
+  margin-left: -2rem;
+  font-size: x-large;
+  color: rgba(131, 126, 126, 0.731);
+  bottom: -20%;
+  cursor: pointer;
+}
+
+.add_play_list {
+  background-color: rgb(206, 202, 202);
+  border-radius: 5px;
+  width: 15%;
+}
+.add_play_list .icon{
+  padding-right: 4px;
+  font-size: 18px;
+  margin-bottom: -0.4rem;
+}
+.add_play_list h3 {
+  margin-top: 0.7rem;
+  font-size: 13px;
+  color: rgba(119, 117, 117, 0.832);
+  padding: 0rem 1rem;
+  cursor: pointer;
+}
+.videoPlayer{
+  margin-left: 1rem;
+}
